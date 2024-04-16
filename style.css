@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+}
+
+.container{
+    padding: 0;
+    
+}
+
+h2, h1, h3{
+    color: black;
+}
+
+a{
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(218, 218, 218);
+}
+
+a:hover{
+    color: yellow;
+}
+
+.up{
+   
+
+    background: linear-gradient(135deg,rgb(194, 66, 66),rgb(99, 49, 49));
+    width: 100vw;
+    height: 50vh;
+
+    position: relative;
+    top: 0;
+
+    
+}
+
+.down{
+    background: linear-gradient(135deg,rgb(24, 28, 48),rgb(66, 53, 179));
+    width: 100vw;
+    height: 50vh;
+
+    position: relative;
+    bottom: 0;
+}
+
+/*  */
+
+.greet1{
+    position: relative;
+    left: 400px;
+    top: 20px;
+    
+}
+
+.greet2{
+    position: relative;
+    left: 630px;
+    top: 10px;
+}
+
+#picBrix{
+    width: 250px;
+    border-radius: 150px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+#picMeljy{
+    width: 250px;
+    border-radius: 150px;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+/* aboutBrix */
+
+#aboutBrixBody{
+    background: linear-gradient(120deg,rgb(194, 66, 66),rgb(99,49,49));
+}
+
+#brixPic2{
+    /* brix pic in about brix */
+    width: 350px;
+    border-radius: 250px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#aboutBrixBody h2, h1{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+#aboutBrixBody h2{
+    font-size: 35px;
+}
+
+#aboutBrixBody h1{
+    font-size: 45px;
+}
+
+#home1{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+    width: 100px;
+    height: 50px;
+
+    border: 5px solid rgb(114, 34, 34);
+    background-color: hsl(0, 84%, 31%);
+
+    padding: 0;
+
+}
+
+#home1 a{
+    position: relative;
+    left: 15px;
+    top: 7px;
+
+    font-size: 30px;
+    
+}
+/* ---------------------------------------------------------- */
+/* brix Favorite */
+
+#brixFavoriteContent{
+    background: linear-gradient(120deg,rgb(194, 66, 66),rgb(99,49,49));
+}
+
+#brixFavoriteContent h2, h1{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+#brixFavoriteContent h2{
+    font-size: 35px;
+}
+
+#brixFavoriteContent h1{
+    font-size: 45px;
+}
+
+#brixPic3{
+    /* brix pic in about brix favorite */
+    width: 350px;
+    border-radius: 250px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#home2{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+    width: 100px;
+    height: 50px;
+
+    border: 5px solid rgb(114, 34, 34);
+    background-color: hsl(0, 84%, 31%);
+
+    padding: 0;
+
+}
+
+#home2 a{
+    position: relative;
+    left: 15px;
+    top: 7px;
+
+    font-size: 30px;
+    
+}
+/*------------------------------------------------------------- */
+/* about meljy */
+
+#aboutMeljyBody{
+    background: linear-gradient(135deg,rgb(24, 28, 48),rgb(66, 53, 179));
+}
+
+
+#meljyPic2{
+    /* meljy pic in about meljy */
+    width: 350px;
+    border-radius: 250px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#aboutMeljyBody h2, h1{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+#aboutMeljyBody h2{
+    font-size: 35px;
+}
+
+#aboutMeljyBody h1{
+    font-size: 45px;
+}
+
+#home3{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+    width: 100px;
+    height: 50px;
+
+    border: 5px solid rgb(34, 19, 85);
+    background-color: hsl(256, 83%, 34%);
+
+    padding: 0;
+
+}
+
+#home3 a{
+    position: relative;
+    left: 15px;
+    top: 7px;
+
+    font-size: 30px;
+    
+}
+
+/* ------------------------------------------------------------ */
+/* meljy favorite */
+
+#meljyFavoriteContent{
+    background: linear-gradient(135deg,rgb(36, 43, 75),rgb(66, 53, 179));
+}
+
+#meljyFavoriteContent h2, h1{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+#meljyFavoriteContent h2{
+    font-size: 35px;
+}
+
+#meljyFavoriteContent h1{
+    font-size: 45px;
+}
+
+#meljyPic3{
+    /* brix pic in about brix favorite */
+    width: 350px;
+    border-radius: 250px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+#home4{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+
+    width: 100px;
+    height: 50px;
+
+    border: 5px solid rgb(34, 19, 85);
+    background-color: hsl(256, 83%, 34%);
+
+    padding: 0;
+
+}
+
+#home4 a{
+    position: relative;
+    left: 15px;
+    top: 7px;
+
+    font-size: 30px;
+    
+}
+
+
+
+
+/* ------------------------------------------------------------- */
